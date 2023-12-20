@@ -1,0 +1,74 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test should LogIn match snapshot 1`] = `
+<div
+  className="LI-container"
+>
+  <form
+    className="LI-form"
+    onSubmit={[Function]}
+  >
+    <div
+      className="LI-title"
+    >
+       Log-In 
+    </div>
+    <label
+      className="LI-entry"
+      htmlFor="userEmail"
+    >
+      Username:
+      <input
+        className="LI-input"
+        name="username"
+        onChange={[Function]}
+        onKeyPress={[Function]}
+        placeholder="ex. user12345"
+        required={true}
+        type="text"
+      />
+    </label>
+    <label
+      className="LI-entry"
+      htmlFor="userPassword"
+    >
+      Password:
+      <input
+        className="LI-input"
+        name="userPassword"
+        onChange={[Function]}
+        onKeyPress={[Function]}
+        placeholder="ex. mypassword"
+        required={true}
+        type="password"
+      />
+    </label>
+    <button
+      className="bp3-button bp3-disabled LI-submitBtn"
+      disabled={true}
+      onBlur={[Function]}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      tabIndex={-1}
+      type="button"
+    >
+      <span
+        className="bp3-button-text"
+      >
+        Log In
+      </span>
+    </button>
+    <span
+      className="LI-signUp"
+    >
+      New? Sign Up
+       
+      <a
+        href="signup"
+      >
+        HERE
+      </a>
+    </span>
+  </form>
+</div>
+`;

@@ -1,0 +1,45 @@
+{
+  "name": "controller",
+  "version": "1.0.0",
+  "description": "controller",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "jest --forceExit --coverage",
+    "lint": "eslint --ext .js,.ts,.jsx,.tsx --ignore-pattern *.test.js",
+    "build": "npm install && cd ../Redundit && npm install && npm run build",
+    "cypress": "cypress open"
+  },
+  "author": "team8",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^9.1.1",
+    "eslint": "^8.3.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.3"
+  },
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-session": "^1.17.2",
+    "jest": "^27.3.1",
+    "jsonwebtoken": "^8.5.1",
+    "knex": "^0.95.14",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.3.3-rc.0",
+    "mysql2-promise": "^0.1.4",
+    "passport": "^0.5.0",
+    "passport-jwt": "^4.0.0",
+    "passport-local": "^1.0.0",
+    "supertest": "^6.1.6"
+  },
+  "jest": {
+    "coveragePathIgnorePatterns": [
+      "./Redundit",
+      "./Controller/services/passport.js",
+      "./Controller/queries/mention.js"
+    ]
+  }
+}

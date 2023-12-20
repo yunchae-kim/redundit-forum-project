@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test should ChatList match snapshot 1`] = `
+<div
+  className="global-right-list"
+>
+  <div
+    className="CL-header"
+  >
+    <div
+      className="CL-title"
+    >
+      ChatList
+    </div>
+  </div>
+  <hr
+    className="CL-hr"
+  />
+</div>
+`;

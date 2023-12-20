@@ -1,0 +1,41 @@
+.navbar.bp3-navbar.bp3-fixed-top{
+  padding-bottom: 10px;
+  padding-top: 0px;
+  margin-top: 0px;
+  width: 100%;
+  overflow: hidden;
+  position: fixed;
+  height: 64px;
+}
+
+.bp3-button.bp3-intent-primary.navbar-button {
+  border: none;
+  width: 160px;
+  height: 40px;
+  border-radius: 20px;
+  align-self: center;
+  margin-right: 32px;
+  justify-self: center;
+  font-size: 20px;
+  box-shadow: none;
+  font-weight:600;
+}
+
+.navbar-logo {
+  border-radius: 50%;
+  width: 160px;
+  height: 160px;
+  align-self: center;
+  margin-right: 32px;
+  margin-left: 56px;
+}
+
+.navbar-icon {
+  height: 30px;
+  margin-right: 32px;
+}
+
+.navbar-icon-message {
+  height: 30px;
+  margin-right: 52px;
+}

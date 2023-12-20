@@ -1,0 +1,90 @@
+.ChatWindow{
+    background-color: white;
+    width:1100px;
+    height: 720px;
+    border-radius: 20px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+}
+
+.CW-buttons{
+    display: flex;
+    align-content: flex-start;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.CW-button{
+    background-color: transparent;
+    border: none;
+    height: 30px;
+    width: 30px;
+    margin-right: 32px;
+}
+
+.CW-button-icon{
+    height: 25px;
+    width: 25px;
+}
+
+.CW-send{
+    background-color: transparent;
+    border: none;
+    height: 45px;
+    width: 45px;
+}
+
+.CW-send-icon{
+    height: 42px;
+    width: 42px;
+}
+
+.CW-input{
+    height: 52px;
+    border-radius: 10px;
+    width: 970px;
+    border-color: #aaaaaa;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.CW-form{
+    display: flex;
+    justify-content: center;
+}
+
+.CW-content{
+    width: 1024px;
+    padding-top: 39px;
+    padding-bottom: 32px;
+    margin: 0px 0px 0px 0px;
+}
+
+.CW-scrollbox{
+    height:480px;
+    width:1024px;
+    border:1px solid #aaaaaa;
+    overflow:auto;
+    border-radius: 10px;
+}
+
+.CW-name{
+    text-align: left;
+    font-weight: 600;
+    margin-bottom: 35px;
+}
+
+.CW-chatentry{
+    margin-bottom: 32px;
+    margin-left: 20px;
+    text-align: left;
+}
+
+.CW-chatentry-header{
+    color: #707070;
+}
+.CW-chatentry-name{
+    margin-right: 80px;
+}

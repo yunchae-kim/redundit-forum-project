@@ -1,0 +1,29 @@
+.PFP-mygroup{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.PFP-mygroup-groups{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.ProfilePage{
+    display: flex;
+}
+
+.PFP-left{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.PFP-right{
+}
+
+.PFP-container{
+    display:flex;
+    flex-direction: column;
+}

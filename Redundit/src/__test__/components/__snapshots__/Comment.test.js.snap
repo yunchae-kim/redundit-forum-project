@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test should CommentList match snapshot 1`] = `
+<div
+  className="Post-comment"
+>
+  <div
+    className="Post-comment-name"
+  >
+    <img
+      alt=""
+      className="Post-comment-icon"
+      src="userIcon.png"
+    />
+    <span
+      className="CW-chatentry-name"
+    >
+       
+      (deactivated)
+    </span>
+    <span
+      className="Post-comment-time"
+    />
+  </div>
+  <div
+    className="Post-comment-content"
+  />
+  <div
+    className="Post-comment-content"
+  >
+    this is a new comment
+  </div>
+</div>
+`;

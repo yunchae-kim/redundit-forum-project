@@ -1,0 +1,136 @@
+.NewPost {
+  width: 900px;
+  min-height: 500px;
+  margin: 31px 100px 56px 160px;
+  padding: 35px 50px 35px 50px;
+  border-radius: 20px;
+  background-color: #fff;
+}
+
+#NP-textInputDiv{
+  margin-top: 15px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  border: 1px solid rgb(214, 216, 218);
+  border-radius: 5px;
+}
+
+#NP-textInputBox{
+  margin-top: 5px;
+}
+
+#NP-tagInput{
+  margin-top: 15px;
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  min-height: 35px;
+  padding: 0 8px;
+  border: 1px solid rgb(214, 216, 218);
+  border-radius: 5px;
+}
+
+#NP-tags {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  margin: 8px 0 0 0;
+}
+
+.tag {
+  width: auto;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color:black;
+  padding: 0 8px;
+  font-size: 14px;
+  list-style: none;
+  border-radius: 6px;
+  margin: 0 8px 8px 0;
+  background: #e4ebf2;
+}
+.NP-tagTitle {
+  margin-top: 3px;
+}
+
+.NP-tagCloseIcon {
+  display: block;
+  width: 16px;
+  height: 16px;
+  line-height: 16px;
+  text-align: center;
+  font-size: 14px;
+  margin-left: 8px;
+  color: #0052cc;
+  border-radius: 50%;
+  background: #fff;
+  cursor: pointer;
+}
+
+input{
+  flex: 1;
+  border: none;
+  height: 30px;
+  margin-top: 5px;
+  font-size: 14px;
+}
+
+#NP-postBtn {
+  width: 110px;
+  height: 30px;
+  font-size: 18px;
+  color: white;
+  font-weight: bold;
+  border-radius: 20px;
+  box-shadow: none;
+  background-image: none;
+  margin: 30px 0px 0px 690px;
+  padding: 8px 38px;
+  background-color: #188bd8;
+}
+
+
+.NP-buttons{
+  display: flex;
+  align-content: flex-start;
+  background-color: #e4ebf2;
+  margin-top: 0px;
+  width: 798px;
+  overflow: hidden;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.NP-button{
+  background-color: transparent;
+  border: none;
+  height: 30px;
+  width: 30px;
+  margin-right: 0px;
+  margin-left: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+
+}
+
+.NP-button-icon{
+  height: 20px;
+  width: 20px;
+}
+
+.bp3-editable-text{
+  margin-top: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 788px;
+  font-size: 15px;
+}
+
+.bp3-editable-text-content{
+  text-align: left;
+}

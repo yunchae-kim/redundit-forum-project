@@ -1,0 +1,126 @@
+.GroupPanel-small {
+    width: 500px;
+    height: 300px;
+    background-color: white;
+    border-radius: 20px;
+    color: black;
+    font-size: 20px;
+    margin-bottom: 1rem;
+}
+
+.GroupPanel-large {
+  width: 750px;
+  height: 300px;
+  background-color: white;
+  border-radius: 20px;
+  color: black;
+  font-size: 20px;
+}
+
+.GP-header {
+  display: flex;
+  margin-left: 28px;
+  margin-right: 28px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.GP-btn-join {
+  background-color: #188bd8;
+  color: white;
+  margin-left: auto;
+  margin-top: 0;
+  width: 120px;
+  height: 40px;
+  border-radius: 20px;
+  align-self: center;
+  box-shadow: none;
+  font-size: 20px;
+  border: none;
+  font-weight:600;
+}
+
+.GP-btn-joined {
+  background-color:#a3d1ef;
+  color: white;
+  margin-left: auto;
+  margin-top: 0;
+  width: 120px;
+  height: 40px;
+  border-radius: 20px;
+  align-self: center;
+  box-shadow: none;
+  font-size: 20px;
+  border:none;
+  font-weight:600;
+}
+
+.GP-title {
+  align-self: center;
+  margin-right: auto;
+  font-size: 24px;
+  font-weight: 500;
+  color: #111;
+}
+
+.GP-groupIcon {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  align-self: center;
+  margin-right: 24px;
+}
+
+.GP-hashTags{
+  display: flex;
+  justify-content: flex-start;
+  height: 1.5rem;
+  margin-left: 28px;
+  margin-right: 28px;
+  margin-bottom: 24px;
+}
+
+.GP-hashTags-large{
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 27px;
+  margin-right: 32px;
+  padding-bottom: 15px;
+}
+
+span.bp3-tag.GP-tag{
+  font-size: 16px;
+}
+
+.GP-tag {
+  width: 100px;
+  height: 32px;
+  border-radius: 20px;
+  margin-right: 10px;
+}
+
+.GP-description {
+  margin-left: 28px;
+  margin-right: 28px;
+  padding-bottom: 15px;
+  height: 90px;
+  text-align: left;
+  overflow: scroll;
+}
+
+.GP-footer {
+  margin-left: 28px;
+  margin-right: 28px;
+  display: flex;
+  justify-content: space-around;
+  font-size: 16px;
+  padding-top: 1rem;
+  font-weight:600;
+  color: #555555;
+}
+
+.GP-horizontal-divider {
+  background-color: #dddddd;
+  border:none;
+  height:1px;
+}

@@ -1,0 +1,89 @@
+.PostPanel {
+    width: 1100px;
+    height: 400px;
+    margin: 29px 100px 0 160px;
+    padding: 17px 1px 21px 0;
+    border-radius: 20px;
+    background-color: #fff;
+    font-family: HelveticaNeue;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+  }
+  
+  .PP-header {
+    display: flex;
+    flex-direction: row;
+    margin-left: 30px;
+    margin-right: 32px;
+    padding-top: 0px;
+    padding-bottom: 10px;
+    color: black;
+    font-size: 16px;
+  }
+  
+  .PP-userIcon {
+    border-radius: 30%;
+    width: 20px;
+    height: 20px;
+    align-self: center;
+    margin-right: 15px;
+  }
+  
+  .PP-postDate {
+    align-self: center;
+  }
+  .PP-userName {
+    margin-right: 30px;
+    align-self: center;
+    font-weight: bold;
+  }
+  .PP-title {
+    height: 28px;
+    margin: 0px 167px 10px 30px;
+    font-family: HelveticaNeue;
+    font-size: 24px;
+    font-weight: bold;
+    color: #111;
+  }
+  
+  .PP-hashtags {
+    margin: 10px 318px 16px 30px;
+    font-size: 16px;
+    color: #465771;
+  }
+  
+  .PP-post {
+    width: 1038px;
+    height: 140px;
+    margin: 15px 36px 15px 30px;
+    font-size: 20px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #111;
+  }
+  
+  .PP-fooder {
+    display: flex;
+    width: 485px;
+    height: 18px;
+    margin: 15.5px 587px 0 30px;
+    font-size: 16px;
+    color: #188bd8;
+  }
+  
+  .PP-viewPost{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    align-self: center;
+  }
+  
+  .PP-viewPostText {
+    color : #5da271;
+  }

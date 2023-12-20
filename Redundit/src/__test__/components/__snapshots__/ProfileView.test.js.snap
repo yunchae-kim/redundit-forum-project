@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test should ProfileView match snapshot 1`] = `
+<div
+  className="ProfileView"
+>
+  <div
+    className="PV-photo"
+  >
+    <div
+      className="PV-firstCol"
+    >
+      Profile Photo
+    </div>
+    <img
+      alt=""
+      className="PV-secondCol PV-userIcon"
+    />
+  </div>
+  <div
+    className="PV-email"
+  >
+    <div
+      className="PV-firstCol"
+    >
+      Username
+    </div>
+    <div
+      className="PV-secondCol PV-userEmail"
+    />
+  </div>
+  <div
+    className="PV-joindate"
+  >
+    <div
+      className="PV-firstCol"
+    >
+      Join Date
+    </div>
+    <div
+      className="PV-secondCol PV-joindate"
+    />
+  </div>
+  <div
+    className="PV-status"
+  >
+    <div
+      className="PV-firstCol"
+    >
+      Status
+    </div>
+    <div
+      className="PV-secondCol PV-status"
+    >
+      Deactivated
+    </div>
+  </div>
+</div>
+`;

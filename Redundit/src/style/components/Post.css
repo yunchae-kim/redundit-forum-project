@@ -1,0 +1,153 @@
+.PostPage {
+    width: 1100px;
+    margin: 29px 100px 0 160px;
+    padding: 17px 1px 21px 0;
+    border-radius: 20px;
+    background-color: #fff;
+    font-family: HelveticaNeue;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+  }
+  
+  .Post-header {
+    display: flex;
+    flex-direction: row;
+    margin-left: 30px;
+    margin-right: 32px;
+    padding-top: 0px;
+    padding-bottom: 10px;
+    color: black;
+    font-size: 16px;
+  }
+  
+  .Post-userIcon {
+    border-radius: 30%;
+    width: 20px;
+    height: 20px;
+    align-self: center;
+    margin-right: 15px;
+  }
+  
+  .Post-postDate {
+    align-self: center;
+  }
+  .Post-userName {
+    margin-right: 30px;
+    align-self: center;
+    font-weight: bold;
+  }
+  .Post-title {
+    height: 28px;
+    margin: 0px 167px 10px 30px;
+    font-family: HelveticaNeue;
+    font-size: 24px;
+    font-weight: bold;
+    color: #111;
+  }
+  
+  .Post-hashtags {
+    margin: 10px 318px 16px 30px;
+    font-size: 16px;
+    color: #465771;
+  }
+  
+  .Post-post {
+    width: 1038px;
+    margin: 15px 36px 15px 30px;
+    font-size: 20px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #111;
+  }
+  
+  .Post-fooder {
+    display: flex;
+    width: 485px;
+    height: 18px;
+    margin: 15.5px 587px 0 30px;
+    font-size: 16px;
+    color: #188bd8;
+  }
+  
+  .Post-viewPost{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    align-self: center;
+  }
+  
+  .Post-viewPostText {
+    color : #5da271;
+  }
+  
+  .Post-img {
+    height: 360px;
+    width: 720px;
+  }
+  
+  .Post-img-div {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .PostPage-comments {
+    color: black;
+    width: 1100px;
+    margin: 24px 100px 0 160px;
+    padding: 17px 1px 21px 0;
+    border-radius: 20px;
+    background-color: #fff;
+    font-family: HelveticaNeue;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+  }
+  
+  .Post-comment {
+    margin-left: 27px;
+    margin-right: 27px;
+    margin-bottom: 27px;
+    font-size: 20px;
+  }
+  
+  .Post-comment-modify {
+    display: flex;
+    color: #444444;
+  }
+  
+  .Post-comment-modify a{
+    font-size: 16px;
+    color: #444444;
+  }
+  
+  .Post-comment-name{
+    font-size: 16px;
+    font-weight:700;
+    margin-bottom: 10px;
+  }
+  
+  .Post-comment-time{
+    font-weight: 300;
+    color:#444444;
+    margin-left: 17px;
+  }
+  
+  .Post-comment-icon{
+    border-radius: 30%;
+    width: 20px;
+    height: 20px;
+    align-self: center;
+    margin-right: 15px;
+  }
+  

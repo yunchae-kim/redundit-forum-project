@@ -1,0 +1,341 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test should CreateGroupPage match snapshot 1`] = `
+Array [
+  <a
+    href="/"
+    onClick={[Function]}
+  >
+    <button
+      className="link-button"
+      type="button"
+    >
+      Back
+    </button>
+  </a>,
+  <div
+    className="NewPost"
+  >
+    <div
+      id="NP-titleInput"
+    >
+      <div
+        className="bp3-input-group bp3-large"
+      >
+        <input
+          className="bp3-input"
+          id="NP-titleInputGroup"
+          onChange={[Function]}
+          placeholder="Group Name"
+          style={
+            Object {
+              "paddingLeft": undefined,
+              "paddingRight": undefined,
+            }
+          }
+          type="text"
+        />
+      </div>
+    </div>
+    <div
+      id="NP-textInputDiv"
+    >
+      <div
+        className="bp3-editable-text bp3-editable-text-placeholder bp3-multiline"
+        onFocus={[Function]}
+        tabIndex={0}
+      >
+        <span
+          className="bp3-editable-text-content"
+          style={
+            Object {
+              "height": 0,
+            }
+          }
+        >
+          Group description
+        </span>
+      </div>
+    </div>
+    <div
+      id="NP-tagInput"
+    >
+      <ul
+        id="NP-tags"
+      />
+      <input
+        onKeyUp={[Function]}
+        placeholder="Enter to add group tags"
+        type="text"
+      />
+    </div>
+    <div>
+      <label
+        className="bp3-control bp3-checkbox"
+      >
+        <input
+          onChange={[Function]}
+          type="checkbox"
+        />
+        <span
+          className="bp3-control-indicator"
+        />
+        Private Group
+      </label>
+    </div>
+    <div
+      className="NP-postBtnDiv"
+    />
+  </div>,
+]
+`;
+
+exports[`test should FrontPage match snapshot 1`] = `
+<div
+  className="FrontPage"
+>
+  <div
+    className="bp3-navbar bp3-fixed-top bp3-navbar navbar"
+  >
+    <div
+      className="bp3-navbar-group bp3-align-left"
+    >
+      <a
+        href="/"
+        onClick={[Function]}
+      >
+        <img
+          alt=""
+          className="navbar-logo"
+          src="logo.svg"
+        />
+      </a>
+    </div>
+    <div
+      className="bp3-navbar-group bp3-align-right"
+    >
+      <div>
+        <a
+          href="/login"
+          onClick={[Function]}
+        >
+          <button
+            className="bp3-button bp3-small bp3-intent-primary navbar-button"
+            onBlur={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+            type="button"
+          >
+            <span
+              className="bp3-button-text"
+            >
+              Log In
+            </span>
+          </button>
+        </a>
+        <a
+          href="/signup"
+          onClick={[Function]}
+        >
+          <button
+            className="bp3-button bp3-small bp3-intent-primary navbar-button"
+            onBlur={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+            type="button"
+          >
+            <span
+              className="bp3-button-text"
+            >
+              Sign Up
+            </span>
+          </button>
+        </a>
+      </div>
+    </div>
+  </div>
+  <div
+    className="global-container"
+  >
+    <div
+      className="FP-left global-left-panel"
+    >
+      <div
+        className="FP-public"
+      >
+        <div
+          className="FP-public-title global-header"
+        >
+          Public Groups
+        </div>
+        <div>
+          Sort by:
+          <div
+            className="bp3-button-group bp3-minimal"
+          >
+            <button
+              className="bp3-button"
+              onBlur={[Function]}
+              onClick={[Function]}
+              onKeyDown={[Function]}
+              onKeyUp={[Function]}
+              type="button"
+            >
+              <span
+                aria-hidden={true}
+                className="bp3-icon bp3-icon-sort-numerical-desc"
+                icon="sort-numerical-desc"
+              >
+                <svg
+                  data-icon="sort-numerical-desc"
+                  height={16}
+                  viewBox="0 0 16 16"
+                  width={16}
+                >
+                  <path
+                    d="M6 11.99c-.28 0-.53.11-.71.29l-.29.3V8.99c0-.55-.45-1-1-1s-1 .45-1 1v3.59l-.29-.29a.982.982 0 00-.71-.3 1.003 1.003 0 00-.71 1.71l2 2c.18.18.43.29.71.29s.53-.11.71-.29l2-2A1.003 1.003 0 006 11.99zm7.86-9.45c-.09-.48-.26-.9-.5-1.28S12.8.58 12.4.35C12 .12 11.49 0 10.86 0c-.43 0-.82.07-1.17.22s-.65.35-.9.6-.44.55-.58.89c-.14.34-.2.71-.2 1.11 0 .31.05.61.15.91.1.3.26.57.48.8.23.24.52.43.85.58.33.14.68.21 1.03.21.4 0 .75-.07 1.05-.2.3-.13.57-.35.79-.66l.02.02c-.02.21-.05.45-.1.73-.05.27-.13.53-.25.76-.12.24-.27.44-.47.6-.19.16-.44.25-.75.25a.98.98 0 01-.72-.29c-.19-.18-.31-.4-.37-.66H8.15c.05.34.14.64.29.9.15.26.34.49.57.67.23.18.5.32.8.41.31.1.63.15.98.15.58 0 1.08-.12 1.48-.36.4-.24.73-.55.99-.93.26-.39.44-.82.56-1.29.12-.48.18-.96.18-1.44s-.05-.96-.14-1.44zm-1.71.72c-.05.17-.14.32-.24.46-.11.13-.24.24-.41.31-.16.08-.36.12-.58.12-.21 0-.39-.04-.55-.13-.16-.08-.29-.19-.39-.33-.12-.14-.19-.29-.24-.46-.05-.17-.08-.35-.08-.54 0-.18.03-.35.08-.52.06-.16.14-.31.25-.44.11-.13.24-.24.4-.32.16-.08.33-.12.52-.12.21 0 .4.04.56.12.16.08.3.19.41.32.11.14.2.29.26.46.06.17.09.35.09.52 0 .2-.03.38-.08.55zm-.46 7.31c-.12.15-.26.28-.44.37-.17.09-.37.16-.58.2-.22.04-.44.05-.67.05v.92h1.65v3.88h1.33V10h-1.06c-.03.23-.11.42-.23.57z"
+                    fillRule="evenodd"
+                  />
+                </svg>
+              </span>
+              <span
+                className="bp3-button-text"
+              >
+                Newest
+              </span>
+            </button>
+            <button
+              className="bp3-button"
+              onBlur={[Function]}
+              onClick={[Function]}
+              onKeyDown={[Function]}
+              onKeyUp={[Function]}
+              type="button"
+            >
+              <span
+                aria-hidden={true}
+                className="bp3-icon bp3-icon-sort-numerical"
+                icon="sort-numerical"
+              >
+                <svg
+                  data-icon="sort-numerical"
+                  height={16}
+                  viewBox="0 0 16 16"
+                  width={16}
+                >
+                  <path
+                    d="M6 11.99c-.28 0-.53.11-.71.29l-.29.3V8.99c0-.55-.45-1-1-1s-1 .45-1 1v3.59l-.29-.29c-.18-.18-.43-.3-.71-.3a1.003 1.003 0 00-.71 1.71l2 2c.18.18.43.29.71.29.28 0 .53-.11.71-.29l2-2A1.003 1.003 0 006 11.99zm7.91-.08c-.06-.36-.17-.68-.33-.96-.16-.28-.37-.51-.64-.69-.27-.17-.61-.26-1.03-.26-.28 0-.54.06-.78.17-.23.11-.43.26-.6.45-.17.19-.3.41-.39.67a2.492 2.492 0 00-.04 1.52 1.623 1.623 0 00.89 1.03c.22.11.45.16.68.16.26 0 .5-.05.7-.15s.38-.26.53-.5l.02.02c-.01.16-.03.34-.07.54-.03.2-.09.4-.17.57-.08.18-.18.33-.31.45s-.29.19-.5.19a.63.63 0 01-.48-.21c-.13-.14-.21-.31-.25-.5H10.1c.03.25.1.48.19.68.1.2.22.37.38.5.16.14.33.24.54.31s.42.1.65.1c.39 0 .72-.09.99-.27.27-.18.49-.41.66-.7.17-.29.29-.61.37-.97.08-.36.12-.72.12-1.07 0-.36-.03-.72-.09-1.08zm-1.14.54c-.04.13-.09.24-.16.34a.78.78 0 01-.27.24c-.11.06-.24.09-.39.09a.75.75 0 01-.37-.09.777.777 0 01-.26-.25c-.07-.1-.12-.22-.15-.35-.03-.13-.05-.26-.05-.4 0-.13.02-.26.05-.39.04-.13.09-.24.16-.34.07-.1.16-.18.26-.24s.22-.09.35-.09c.14 0 .26.03.37.09.11.06.2.14.28.24a1.32 1.32 0 01.23.74c0 .15-.02.28-.05.41zm-1.56-4.47H13V0h-1.42c-.05.3-.16.56-.31.76-.16.21-.35.37-.58.5-.23.13-.49.21-.78.26-.3.05-.6.07-.91.06V2.8h2.21v5.18z"
+                    fillRule="evenodd"
+                  />
+                </svg>
+              </span>
+              <span
+                className="bp3-button-text"
+              >
+                Oldest
+              </span>
+            </button>
+            <button
+              className="bp3-button"
+              onBlur={[Function]}
+              onClick={[Function]}
+              onKeyDown={[Function]}
+              onKeyUp={[Function]}
+              type="button"
+            >
+              <span
+                aria-hidden={true}
+                className="bp3-icon bp3-icon-sort-alphabetical"
+                icon="sort-alphabetical"
+              >
+                <svg
+                  data-icon="sort-alphabetical"
+                  height={16}
+                  viewBox="0 0 16 16"
+                  width={16}
+                >
+                  <path
+                    d="M6 12c-.28 0-.53.11-.71.29l-.29.3V9c0-.55-.45-1-1-1s-1 .45-1 1v3.59l-.29-.29A.965.965 0 002 12a1.003 1.003 0 00-.71 1.71l2 2c.19.18.44.29.71.29.28 0 .53-.11.71-.29l2-2c.18-.18.29-.43.29-.71a.99.99 0 00-1-1zm7.93-.95v-1.04H9.25v1.11h2.94L9 14.96V16h5.02v-1.11h-3.27l3.18-3.84zm-1.42-4.84l.62 1.78H15L11.94.01H10.1L7 7.99h1.81l.64-1.78h3.06zm-1.52-4.24h.02l1.03 2.93H9.92l1.07-2.93z"
+                    fillRule="evenodd"
+                  />
+                </svg>
+              </span>
+              <span
+                className="bp3-button-text"
+              >
+                Alphabetical
+              </span>
+            </button>
+            <button
+              className="bp3-button"
+              onBlur={[Function]}
+              onClick={[Function]}
+              onKeyDown={[Function]}
+              onKeyUp={[Function]}
+              type="button"
+            >
+              <span
+                aria-hidden={true}
+                className="bp3-icon bp3-icon-sort-alphabetical-desc"
+                icon="sort-alphabetical-desc"
+              >
+                <svg
+                  data-icon="sort-alphabetical-desc"
+                  height={16}
+                  viewBox="0 0 16 16"
+                  width={16}
+                >
+                  <path
+                    d="M5.99 11.99c-.28 0-.53.11-.71.29l-.29.29V8.99c0-.55-.45-1-1-1s-1 .45-1 1v3.59l-.29-.29a1.003 1.003 0 00-1.42 1.42l2 2c.18.18.43.29.71.29.28 0 .53-.11.71-.29l2-2c.18-.18.29-.43.29-.71 0-.56-.45-1.01-1-1.01zM12.7 10h-1.38L9 15.99h1.36l.48-1.33h2.3l.46 1.33H15L12.7 10zm-1.51 3.67l.8-2.2h.02l.77 2.2h-1.59zm3.8-7.17h-4.57l4.45-5.12V0H8.34v1.48h4.1L7.99 6.59v1.39h7V6.5z"
+                    fillRule="evenodd"
+                  />
+                </svg>
+              </span>
+              <span
+                className="bp3-button-text"
+              >
+                Alphabetical - desc
+              </span>
+            </button>
+          </div>
+        </div>
+        <div
+          className="bp3-input-group bp3-large"
+        >
+          <input
+            className="bp3-input"
+            id="NP-titleInputGroup"
+            onChange={[Function]}
+            placeholder="GroupTags"
+            style={
+              Object {
+                "paddingLeft": undefined,
+                "paddingRight": undefined,
+              }
+            }
+            type="text"
+          />
+        </div>
+        <button
+          className="bp3-button"
+          id="NP-postBtn"
+          onBlur={[Function]}
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          type="button"
+        >
+          <span
+            className="bp3-button-text"
+          >
+            Search
+          </span>
+        </button>
+        <div
+          className="FP-public-groups"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;

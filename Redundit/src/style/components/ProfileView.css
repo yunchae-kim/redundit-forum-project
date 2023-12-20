@@ -1,0 +1,67 @@
+.ProfileView {
+    width: 100%;
+    padding: 2.5rem;
+    border-radius: 20px;
+    background-color: #fff;
+  }
+
+.PV-name, .PV-email, .PV-password, .PV-status, .PV-joindate {
+  display: flex;
+}
+.PV-photo {
+  display: flex;
+  flex-direction: row;
+  height: 100px;
+}
+
+.PV-firstCol {
+  width: 150px;
+  height: 36px;
+  margin-top: 18px;
+  margin-bottom: 18px;
+  font-family: HelveticaNeue;
+  font-size: 18px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  align-self: center;
+  text-align: left;
+  color: #111;
+}
+
+.PV-secondCol {
+    width: 350px;
+    height: 36px;
+    margin-top: 18px;
+    margin-bottom: 18px;
+    margin-left: 50px;
+    font-family: HelveticaNeue;
+    font-size: 20px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #111;
+  }
+  
+  .PV-editButton, .PV-saveButton{
+    align-self: center;
+    width: 50px;
+    height: 20px;
+  }
+  
+  .PV-userNameInput, .PV-userEmailInput, .PV-userPasswordInput {
+    width: 300px;
+    padding: 1rem 1rem;
+  }
+
+  .PV-userIcon {
+    height: 80px;
+    width: 80px;
+    overflow: hidden;
+    margin-right: 200px;
+  }

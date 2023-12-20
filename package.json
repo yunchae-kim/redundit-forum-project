@@ -1,0 +1,11 @@
+{
+  "name": "fall-2021-project-group-centric-social-network-team-8",
+  "version": "1.0.0",
+  "description": "fall-2021-project-group-centric-social-network-team-8",
+  "scripts": {
+    "start": "cd Controller && npm start",
+    "build": "cd Controller && npm run build"
+  },
+  "author": "team8",
+  "license": "ISC"
+}

@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test should GroupPanel match snapshot 1`] = `
+<div
+  className="GroupPanel GroupPanel-small"
+>
+  <div
+    className="GP-header"
+  >
+    <img
+      alt=""
+      className="GP-groupIcon"
+      src="groupIcon.jpg"
+    />
+    <a
+      className="GP-title"
+      href="/group/undefined"
+      onClick={[Function]}
+    >
+      <div
+        className="GP-title"
+      />
+    </a>
+  </div>
+  <div
+    className="GP-hashTags"
+  />
+  <div
+    className="GP-description"
+  />
+  <hr
+    className="GP-horizontal-divider"
+  />
+  <div
+    className="GP-footer"
+  >
+    <span>
+      0
+       
+      Members
+    </span>
+    <div
+      className="bp3-divider"
+    />
+    <span>
+      0
+       
+      Posts
+    </span>
+  </div>
+</div>
+`;

@@ -1,0 +1,64 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test should NavBar match snapshot 1`] = `
+<div
+  className="bp3-navbar bp3-fixed-top bp3-navbar navbar"
+>
+  <div
+    className="bp3-navbar-group bp3-align-left"
+  >
+    <a
+      href="/"
+      onClick={[Function]}
+    >
+      <img
+        alt=""
+        className="navbar-logo"
+        src="logo.svg"
+      />
+    </a>
+  </div>
+  <div
+    className="bp3-navbar-group bp3-align-right"
+  >
+    <div>
+      <a
+        href="/login"
+        onClick={[Function]}
+      >
+        <button
+          className="bp3-button bp3-small bp3-intent-primary navbar-button"
+          onBlur={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          type="button"
+        >
+          <span
+            className="bp3-button-text"
+          >
+            Log In
+          </span>
+        </button>
+      </a>
+      <a
+        href="/signup"
+        onClick={[Function]}
+      >
+        <button
+          className="bp3-button bp3-small bp3-intent-primary navbar-button"
+          onBlur={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          type="button"
+        >
+          <span
+            className="bp3-button-text"
+          >
+            Sign Up
+          </span>
+        </button>
+      </a>
+    </div>
+  </div>
+</div>
+`;

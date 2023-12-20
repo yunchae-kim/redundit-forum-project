@@ -1,0 +1,38 @@
+body {
+  padding-top: 60px; 
+}
+
+.MyApp {
+  text-align: center;
+}
+
+.MyApp-header {
+  background-color: rgb(228, 228, 228);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  background-color: rgb(162, 162, 162);
+  min-height: 50vh;
+  min-width: 40vh;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: center;
+  color: black;
+  padding: 50px;
+}
+
+div {
+  margin: 5px 0px;
+}
+
+#main_label {
+  font-size: 35px;
+  margin: 0px 0px 50px 0px;
+}
+

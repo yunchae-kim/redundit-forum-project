@@ -1,0 +1,90 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test should SignUp match snapshot 1`] = `
+<div
+  className="SU-container"
+>
+  <form
+    className="SU-form"
+    onSubmit={[Function]}
+  >
+    <div
+      className="SU-title"
+    >
+       Sign-Up 
+    </div>
+    <label
+      className="SU-entry"
+      htmlFor="userEmail"
+    >
+      Username:
+      <input
+        className="SU-input"
+        name="Username"
+        onChange={[Function]}
+        onKeyPress={[Function]}
+        placeholder="ex. user12345"
+        required={true}
+        type="text"
+      />
+    </label>
+    <label
+      className="SU-entry"
+      htmlFor="userPassword"
+    >
+      Password:
+      <input
+        className="SU-input"
+        name="userPassword"
+        onChange={[Function]}
+        onKeyPress={[Function]}
+        placeholder="ex. mypassword"
+        required={true}
+        type="password"
+      />
+    </label>
+    <label
+      className="SU-entry"
+      htmlFor="userPassword"
+    >
+      Confirm Password:
+      <input
+        className="SU-input"
+        name="userPassword"
+        onChange={[Function]}
+        onKeyPress={[Function]}
+        placeholder="confirm password"
+        required={true}
+        type="password"
+      />
+    </label>
+    <button
+      className="bp3-button bp3-disabled SU-submitBtn"
+      disabled={true}
+      onBlur={[Function]}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      tabIndex={-1}
+      type="button"
+    >
+      <span
+        className="bp3-button-text"
+      >
+        Sign Up
+      </span>
+    </button>
+    <span
+      className="SU-logIn"
+    >
+      Already have an account? Login
+       
+      <a
+        href="login"
+      >
+        HERE
+      </a>
+      !
+    </span>
+  </form>
+</div>
+`;

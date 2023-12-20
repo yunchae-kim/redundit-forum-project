@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test should NavBar match snapshot 1`] = `
+<div
+  className="MemberList"
+>
+  <div
+    className="ML-header"
+  >
+    <div
+      className="ML-title"
+    >
+      Group Members
+    </div>
+  </div>
+  <hr
+    className="ML-hr"
+  />
+</div>
+`;

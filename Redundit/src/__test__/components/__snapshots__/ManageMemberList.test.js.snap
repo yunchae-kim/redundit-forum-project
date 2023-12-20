@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test should ManageMemberList match snapshot 1`] = `
+<div
+  className="ML-manage"
+>
+  <div
+    className="MemberList"
+  >
+    <div
+      className="ML-header"
+    >
+      <div
+        className="ML-title"
+      >
+        Group Members
+      </div>
+    </div>
+    <hr
+      className="ML-hr"
+    />
+  </div>
+  <div
+    className="MemberList"
+  >
+    <div
+      className="ML-header"
+    >
+      <div
+        className="ML-title"
+      >
+        Invite Users
+      </div>
+    </div>
+    <hr
+      className="ML-hr"
+    />
+  </div>
+</div>
+`;

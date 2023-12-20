@@ -1,0 +1,11 @@
+.link-button {
+  width: 280px;
+  height: 40px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 2rem;
+  background-color: #188bd8;
+  color: white;
+  font-size: large;
+  font-weight:600;
+}

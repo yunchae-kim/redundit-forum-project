@@ -1,0 +1,20 @@
+.EC{
+    position: fixed;
+    z-index: 100;
+    left: 25%;
+    top: 30%;
+
+    width: 50%;
+
+    border: 1px solid #011627;
+    border-radius: 1em;
+
+    background-color: white;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    color: #011627;
+}

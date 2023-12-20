@@ -1,0 +1,43 @@
+.FP-suggested {
+    display: flex;
+    flex-direction: column;
+    margin-left: 2rem;
+}
+
+.FP-suggested-title{
+}
+
+.FP-suggested-groups{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.FP-public {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+
+.FP-public-title{
+}
+
+.FP-public-groups{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.FrontPage{
+    display: flex;
+}
+
+.FP-left{
+}
+
+.FP-right{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}

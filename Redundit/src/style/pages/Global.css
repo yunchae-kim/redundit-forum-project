@@ -1,0 +1,29 @@
+.global-container {
+  display: flex;
+  max-width: 1440px;
+  min-width: 1080px;
+  justify-content: space-between;
+}
+
+.global-header{
+    align-self: start;
+    color: #188bdf;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.global-left-panel {
+  width: 75%;
+}
+
+.global-right-panel {
+  width: 25%;
+}
+
+.global-right-list {
+  width: 280px;
+  background-color: white;
+  border-radius: 20px;
+  color: black;
+  font-size: 15px;
+}

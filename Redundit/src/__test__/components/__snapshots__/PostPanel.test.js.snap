@@ -1,0 +1,73 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test should PostPanel match snapshot 1`] = `
+<div
+  className="PostPanel"
+>
+  <div
+    className="PP-header"
+  >
+    <img
+      alt=""
+      className="PP-userIcon"
+      src="userIcon.png"
+    />
+    <div
+      className="PP-userName"
+    >
+      <span
+        className="CW-chatentry-name"
+      >
+         
+        (deactivated)
+      </span>
+    </div>
+    <div
+      className="PP-postDate"
+    >
+      Posted:
+       
+    </div>
+  </div>
+  <div
+    className="PP-title"
+  />
+  <div
+    className="PP-hashtags"
+  />
+  <div
+    className="PP-post"
+  />
+  <div
+    className="PP-viewPost"
+  >
+    <a
+      className="PP-viewPostText"
+      href="/post/1"
+      onClick={[Function]}
+    >
+      View More
+    </a>
+  </div>
+  <hr />
+  <div
+    className="PP-fooder"
+  >
+    <button
+      onClick={[Function]}
+      type="submit"
+    >
+      Hide
+    </button>
+    <div
+      className="bp3-divider"
+    />
+    <div
+      className="bp3-divider"
+    />
+    <div
+      className="bp3-divider"
+    />
+  </div>
+</div>
+`;

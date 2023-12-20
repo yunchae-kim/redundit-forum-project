@@ -1,0 +1,187 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test should Post match snapshot 1`] = `
+<div>
+  <div
+    className="bp3-navbar bp3-fixed-top bp3-navbar navbar"
+  >
+    <div
+      className="bp3-navbar-group bp3-align-left"
+    >
+      <a
+        href="/"
+        onClick={[Function]}
+      >
+        <img
+          alt=""
+          className="navbar-logo"
+          src="logo.svg"
+        />
+      </a>
+    </div>
+    <div
+      className="bp3-navbar-group bp3-align-right"
+    >
+      <div>
+        <a
+          href="/login"
+          onClick={[Function]}
+        >
+          <button
+            className="bp3-button bp3-small bp3-intent-primary navbar-button"
+            onBlur={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+            type="button"
+          >
+            <span
+              className="bp3-button-text"
+            >
+              Log In
+            </span>
+          </button>
+        </a>
+        <a
+          href="/signup"
+          onClick={[Function]}
+        >
+          <button
+            className="bp3-button bp3-small bp3-intent-primary navbar-button"
+            onBlur={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+            type="button"
+          >
+            <span
+              className="bp3-button-text"
+            >
+              Sign Up
+            </span>
+          </button>
+        </a>
+      </div>
+    </div>
+  </div>
+  <a
+    href="/postanalytics/1"
+    onClick={[Function]}
+  >
+    Post Analytics
+  </a>
+  <a
+    href="/group/undefined"
+    onClick={[Function]}
+  >
+    <button
+      className="link-button"
+      type="button"
+    >
+      Back to Group
+    </button>
+  </a>
+  <div
+    className="PostPage"
+  >
+    <div
+      className="Post-header"
+    >
+      <img
+        alt=""
+        className="Post-userIcon"
+        src="userIcon.png"
+      />
+      <div
+        className="Post-userName"
+      >
+        <span
+          className="CW-chatentry-name"
+        >
+           
+          (deactivated)
+        </span>
+      </div>
+      <div
+        className="Post-postDate"
+      >
+        Posted:
+         
+      </div>
+    </div>
+    <div
+      className="Post-title"
+    />
+    <div
+      className="Post-hashtags"
+    />
+    <div
+      className="Post-img-div"
+    />
+    <div
+      className="Post-post"
+    />
+    <hr />
+    <div
+      className="Post-fooder"
+    >
+      <div
+        className="bp3-divider"
+      />
+      <div
+        className="bp3-divider"
+      />
+      <div
+        className="bp3-divider"
+      />
+    </div>
+  </div>
+  <div
+    className="PostPage-comments"
+  >
+    <div
+      className="Cmnt-container"
+    >
+      <div
+        className="Cmnt-"
+      >
+        <div
+          id="Cmnt-input"
+        >
+          <div
+            className="bp3-input-group bp3-large"
+          >
+            <input
+              className="bp3-input"
+              id="Cmnt-inputUser"
+              onChange={[Function]}
+              placeholder="Input comment"
+              style={
+                Object {
+                  "paddingLeft": undefined,
+                  "paddingRight": undefined,
+                }
+              }
+              type="text"
+            />
+          </div>
+        </div>
+        <div
+          id="NP-tagInput"
+        >
+          <ul
+            id="NP-tags"
+          />
+          <input
+            onKeyUp={[Function]}
+            placeholder="Enter to add hashtags"
+            type="text"
+          />
+        </div>
+        <div
+          className="NP-postBtnDiv"
+        />
+      </div>
+      <div />
+    </div>
+  </div>
+</div>
+`;
